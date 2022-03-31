@@ -69,7 +69,7 @@ The Suspension Coil dataset provided for the MechaCar contains the results of te
 Image of manufacturing lots
 ![mfg_lots](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mfg_lots.PNG)
 
-Deliverable 3:
+# Deliverable 3:
 
 ## t-Tests on Suspension Coils
 
