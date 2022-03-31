@@ -34,4 +34,4 @@ There is a summary that addresses all three questions.
 
 ### Model
 
-[mechacar_mpg](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mechacar_mpg.PNG)
+![mechacar_mpg](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mechacar_mpg.PNG)
