@@ -68,3 +68,63 @@ The Suspension Coil dataset provided for the MechaCar contains the results of te
 
 Image of manufacturing lots
 ![mfg_lots](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mfg_lots.PNG)
+
+Deliverable 3:
+
+## t-Tests on Suspension Coils
+
+## Deliverable Method:
+
+In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
+An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
+There is a summary of the t-test results across all manufacturing lots and for each lot.
+
+The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
+
+There is a summary of the t-test results across all manufacturing lots.
+t.test(lot1$PSI,mu=1500)
+
+Lot 1 sample actually has the true sample mean of 1500, again as we saw in the summary statistics above. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+
+Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
+
+However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+
+    One Sample t-test
+
+data: lot1$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+1499.719 1500.281
+sample estimates:
+mean of x
+1500
+
+> t.test(lot2$PSI,mu=1500)
+
+    One Sample t-test
+
+data: lot2$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+1499.423 1500.977
+sample estimates:
+mean of x
+1500.2
+
+> t.test(lot3$PSI,mu=1500)
+
+    One Sample t-test
+
+data: lot3$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+1492.431 1499.849
+sample estimates:
+mean of x
+1496.14
