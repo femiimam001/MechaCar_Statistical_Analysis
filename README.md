@@ -67,4 +67,4 @@ Write an RScript that creates a total_summary dataframe using the summarize() fu
 The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
 
 Image of manufacturing lots:
-[mfg_lots](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mfg_lots.PNG)
+![mfg_lots](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mfg_lots.PNG)
