@@ -30,4 +30,6 @@ An RScript is written for a linear regression model to be performed on all six v
 An RScript is written to create the statistical summary of the linear regression model with the intended p-values
 There is a summary that addresses all three questions.
 
-### Results on Deliverable:
+### Results on Deliverable: 
+### Model
+[mechacar_mpg]()
