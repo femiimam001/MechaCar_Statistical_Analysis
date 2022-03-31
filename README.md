@@ -58,7 +58,7 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-### Deliverable Metthod:
+### Deliverable Method:
 
 Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
 In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
@@ -66,5 +66,5 @@ Write an RScript that creates a total_summary dataframe using the summarize() fu
 
 The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
 
-Image of manufacturing lots:
+Image of manufacturing lots
 ![mfg_lots](https://github.com/femiimam001/MechaCar_Statistical_Analysis/blob/main/mfg_lots.PNG)
